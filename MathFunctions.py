@@ -1,6 +1,6 @@
 class MathFunctions:
     def add(self, a: int, b: int) -> int:
-        return a + b
+        return a + b + 100
     
     def subtract(self, a: int, b: int) -> int:
         return a - b
