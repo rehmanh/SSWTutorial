@@ -1,21 +1,22 @@
 import unittest
 from MathFunctions import MathFunctions
 
+
 class TestMathFunctions(unittest.TestCase):
     def setUp(self) -> None:
         self.math_funcs = MathFunctions()
         return super().setUp()
-    
+
     def tearDown(self) -> None:
         return super().tearDown()
-    
+
     def testAdd_returns_correct_integer_when_two_numbers_provided(self):
         # assemble
         a = 10
         b = 15
         expected = 25
         # act
-        result = self.math_funcs.add(a, b)
+        result = self.math_funcs.add(a)
         # assert
         self.assertEqual(result, expected, 'Add method works as expected')
 
@@ -48,6 +49,7 @@ class TestMathFunctions(unittest.TestCase):
         result = self.math_funcs.divide(a, b)
         # assert
         self.assertEqual(result, expected, 'Divide Method works as expected')
+
 
 if __name__ == '__main__':
     print('Running unit tests for MathFunctions')
