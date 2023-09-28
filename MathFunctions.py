@@ -1,5 +1,6 @@
 class MathFunctions:
     def add(self, a: int, b: int) -> int:
+        # this is a comment
         return a + b
 
     def subtract(self, a: int, b: int) -> int:
