@@ -36,7 +36,7 @@ class MathFunctions:
 if __name__ == '__main__':
     math_funcs = MathFunctions()
     print(math_funcs.add(8, 4))
-    print(math_funcs.add(20, 30))
+    print(math_funcs.add(30, 40))
     print(math_funcs.multiply(0, 7))
     print(math_funcs.divide(90, 0.1))
     try:
